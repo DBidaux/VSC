@@ -1,0 +1,19 @@
+body {
+  font-family: Garamond, Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+}
+ul#lista1 {
+  list-style-type: square;
+}
+ol#lista2 {
+  list-style-type: lower-roman;
+}
+ul#lista3 {
+  list-style-type: lower-greek;
+}
+ul#lista4 {
+  list-style-position: inside;
+}
+ul#lista5 {
+  list-style-position: outside;
+}

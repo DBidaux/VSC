@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Texto y fuentes</title>
+        <meta http-equiv="content-type" content="text/html ; charset=utf-8">
+        <style type = "text/css">
+            .texto1{
+                width: 750px;
+                border: 1px solid black;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: clip;
+            }
+        
+            .texto2{
+                width: 750px;
+                border: 1px solid black;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .texto3{
+                width: 300px;
+                border: 1px solid black;
+                word-break: keep-all;
+            }
+
+            .texto4{
+                width: 300px;
+                border: 1px solid black;
+                word-break: break-all;
+            }
+        </style>
+    </head>
+
+    <body>
+    <h3>En este primer párrafo se suprimirá la parte sobrante del texto. Propiedad: "text-overflow: clip"</h3>
+    <div class = "texto1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nesciunt sunt animi, doloribus magni reprehenderit debitis illo quisquam fuga inventore tenetur, nobis at laboriosam minima facere labore modi mollitia similique. Similique in rerum laborum delectus assumenda architecto facere. Quisquam, explicabo sed culpa ipsa molestias facere quae hic sequi ea, maiores accusamus atque! Voluptates impedit perferendis dicta tempore. Voluptate, reprehenderit officia.
+    </div>
+    
+    <h3>Párrafo configurado para añadir puntos suspensivos al final. Propiedad: "text-overflow: ellipsis"</h3>
+    <div class = "texto2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores veritatis explicabo sed praesentium ad expedita et enim, corrupti dolorem mollitia? Deserunt aspernatur, molestias soluta nesciunt ut tempora ab veniam dolorum corporis quod sint reprehenderit debitis ducimus, quam ipsam optio, itaque labore ullam odit vitae rem saepe atque minus! Eaque nesciunt illo ad velit alias autem, obcaecati eum commodi laborum dolores?
+    </div>
+    
+    <h3>En este párrafo se mantienen todos los saltos de línea. Propiedad: "word-break: keep-all"</h3>
+    <div class = "texto3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque pariatur ab rerum voluptatibus, veritatis nostrum laudantium! Corrupti suscipit culpa consequatur vitae quo, nulla et atque pariatur sed voluptatem ipsa deleniti rerum, ut veritatis veniam perspiciatis iure consectetur voluptates reprehenderit eum quaerat. Aspernatur ipsam accusamus deleniti ab consequuntur sapiente architecto perferendis, veritatis consectetur saepe eveniet similique numquam nemo optio quos reprehenderit.
+    </div>
+
+    <h3>En el último párrafo si que se producen todos los saltos de línea necesarios. Propiedad: "word-break: break-all"</h3>
+    <div class = "texto4">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam praesentium ex neque quasi minus. Autem quis vel voluptate voluptates ad, magnam consequuntur velit provident excepturi doloremque quam consequatur dolor totam. Odio, recusandae! Iste cumque id, error qui similique quidem impedit quos animi ad eaque aliquam maiores natus tenetur culpa aut consectetur recusandae quis perspiciatis officia hic corrupti iure rem cum.
+    </div>
+    </body>
+</html>

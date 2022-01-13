@@ -1,0 +1,26 @@
+div{
+    color:red;
+    font-size:15px;
+}
+p{
+    color:black;
+    font-size:10px;
+}
+
+
+div, h1, h2{
+    font-size:16px;
+    color:green;
+}
+
+body, p, div{
+    color:black;
+    font-size:12px;
+    padding:2px;
+}
+div{
+    font-style: bold;
+}
+p{
+    font-style: italic;
+}

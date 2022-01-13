@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <title>Diseño de formularios en CSS</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form id="formulario1" name="formulario1" method="POST" action="data.php">
+            <fieldset id="grupo_datos">
+                <legend id="legend_datos">Datos personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"/>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos"/>
+                <label for="dni">DNI:</label>
+                <input type="text" name="dni" id="dni" maxlength="9"/>
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"/>
+            </fieldset>
+            <div>
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="x" selected="selected">...</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+            </div>
+            <fieldset id="grupo_fechas">
+                <legend id="legend_fechas">Fecha de nacimiento</legend>
+                <div class="fecha">
+                    <label for="dia">Día</label>
+                    <select id="dia" name="dia">
+                        <option value="x" selected="selected">...</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                <div class="fecha">
+                    <label for="mes">Mes</label>
+                    <select id="mes" name="mes">
+                        <option value="x" selected="selected">...</option>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+                <div class="fecha">
+                    <label for="anio">Año</label>
+                    <select id="anio" name="anio">
+                        <option value="x" selected="selected">...</option>
+                        <option value="1970">1970</option>
+                        <option value="1971">1971</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset id="grupo_sugerencias">
+                <legend>Sugerencias</legend>
+                <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

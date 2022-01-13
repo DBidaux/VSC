@@ -1,0 +1,49 @@
+<!--MULTIMEDIA-->
+<!--2)Audio y video:
+            Se usa el tag <object>
+            Atributos:
+                -<data>: URL del archivo
+                -<classid>: identificador único
+                -<codebase>: define el codec con el que se reproduce el archivo
+                -<codetype>: especifica el tipo de contenido
+                -<height>: alto en nº de píxeles
+                -<width>: ancho en nº de píxeles
+                -<name>: nombre del archivo
+                -<param>:
+                    +Rep. automática des.: name="autoplay" value="false"
+                    +Rep. indefinida: name="loop" value="false"
+                -<type>:
+                    ·Audio:
+                        # MP3
+                        # WAV
+                        # MIDI
+                        # WMA
+                        # RealAudio
+                    ·Vídeo:
+                        # MPEG
+                        # AVI
+                        # QuickTime Video
+                        # WMV
+    -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Vídeo Muestra</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <h2 id="titulo">Título Vídeo Muestra</h2>
+      <object
+        data="C:\Users\D. Bidaux\Downloads\file_example_AVI_480_750kB.avi"
+        type="video/x-msvideo"
+        widht="480"
+        height="720"
+      >
+        <param name="autoplay" value="false" />
+        <param name="loop" value="false" />
+      </object>
+    </div>
+  </body>
+</html>
