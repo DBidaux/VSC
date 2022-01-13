@@ -1,0 +1,21 @@
+body {
+  font-family: helvetica, verdana;
+  font-size: 18px;
+}
+table {
+  border: 1px solid #000;
+  border-spacing: 3px;
+  width: 400px;
+}
+table tr td {
+  border: 1px solid #000;
+  width: 20px;
+}
+table#tabla1 {
+  table-layout: auto;
+}
+table#tabla2 {
+  table-layout: fixed;
+  empty-cells: hide;
+  caption-side: bottom;
+}
