@@ -1,0 +1,24 @@
+/*Forma correcta, tenemos un archivo de estilos aparte del cádigo de la página en cuestión. Mucho más ordenado*/
+/*Implementación externa*/
+body {
+  background-color: grey;
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;*/
+  font: bold 20px Verdana, Arial, sans-serif;
+  margin: 0;
+}
+
+h1:hover {
+  display: flex;
+  background-color: rgb(0, 255, 0);
+  color: red;
+}
+
+p {
+  display: flex;
+  background-color: darksalmon;
+  color: slategray;
+  justify-content: center;
+  margin: 70px;
+}
