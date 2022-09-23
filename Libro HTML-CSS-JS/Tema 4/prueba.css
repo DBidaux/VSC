@@ -1,0 +1,12 @@
+body{
+    font-family:Verdana;
+    font-size:22px;
+    color:aqua
+}
+p{
+    text-align:justify;
+    color:blue
+}
+div{
+    border:5px solid #ff0000
+}

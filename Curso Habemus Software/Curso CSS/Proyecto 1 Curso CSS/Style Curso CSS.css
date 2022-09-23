@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap");
+
+body {
+  background-color: #cfc;
+  font-family: "Roboto Serif", sans-serif;
+  line-height: 1, 6em;
+  margin: 0;
+}
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #356821;
+  color: #548231;
+}
+
+nav {
+  background-color: #9fd115;
+  color: #fff;
+}
+nav ul {
+  padding: 0;
+  list-style: decimal;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: #668251;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #356821;
+}
+
+#presentacion {
+  background-image: url(trianglify-lowres.png);
+  min-height: 350px;
+  margin-bottom: 35px;
+  text-align: center;
+  background-size: cover;
+}
+
+#presentacion h2 {
+  color: rgb(6, 73, 3);
+  font-size: 45px;
+  line-height: 1.6em;
+  padding-top: 35px;
+}
+
+main {
+  float: left;
+  width: 70%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding: 0px 30px;
+  background-color: #548231;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+footer {
+  background-color: #356821;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  main,
+  aside {
+    width: 100%;
+    float: none;
+  }
+}

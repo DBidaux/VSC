@@ -1,0 +1,26 @@
+<!--
+Selectores: Primer elemento de una declaración CSS. Dos tipos:
+    
+    - Simples: Formados por elementos y atributos propios del lenguaje HTML
+        + De etiqueta: Todas las etiquetas que forman parte de la página, excepto <head>. Se pueden combinar con comas (CUIDADO CON CONFUNDIRLOS CON LOS DESCENDENTES)
+        + Descendente: Selecciona elementos definidos en otros elementos. Solo cuenta el último elemento. Deben ir separados por un espacio. No descendiente directo, encerrado en el elemento también vale.
+        + De clase: Aplica regla CSS a elemento que tenga definido el atributo class. Mucho cuidado con sintaxis (div.aviso-Todos los div con class aviso =/= div .aviso-unicamente a elementos class aviso contenidos en <div>)
+        + Identificador de elemento: El más específico, se utiliza #. Es posible combinar con nombre de elemento (solo útil cuando aplicas a varios archivos HTML)
+        + Universal: Selecciona todos los elementos del HTML. Representado por *.
+    
+    - Avanzados: En función del valor/contenido de sus atributos. Seis tipos:
+        + [att=val] = p [class="texto"]{color:blue;} aplicaría azul a todos los elementos p que tengan definido una class texto
+        + [att~=val] (altgr + 4) = div [class~="principal"]{font-size:20px;} aplica tamaño fuente 20px a todos los div del HTML que tengan un atributo class con al menos un valor principal.
+        + [att|=val] (alt + 124) = aplica a objetos que tengan atributo cuyo valor sea palabras separadas por guiones. Practicamente solo válido en att lang
+        + [att$=val] = a[href$=".com"]{color:green;} selecciona elementos a con atributo href que termine con .com
+        + [att^=val] = a[href^="www"]{color:blue;} asigna color azul a todas a con atributo href que comiencen por www
+        + [att*=val] = p [class*="noticia"]{font-size:15px;} establece tamaño 15px para los elementos p que tengan clase noticia.   
+
+    - De hijos: Sólo escoge elementos descendientes directos. Se define con elemento hijo > elemento padre {color:red;}
+
+    - Adyacentes: Selecciona elementos declarados justo después. Se define con primer elemento + elemento adyacente {font-size:25px;}
+-->
+
+<!-- EJERCICIOS-->
+
+ 

@@ -1,0 +1,43 @@
+<!--MULTIMEDIA-->
+<!--3)Contenido multimedia en formato FLASH
+         Como inicio se usa el tag <object>:
+            Atributos:
+                - data: URL del archivo
+                - classid: identificador único
+                - height: alto en nº de píxeles
+                - width: ancho en nº de píxeles
+                - name: nombre del archivo
+                - <param>:
+                    + Rep. automática des.: name="autoplay" value="false"
+                    + Rep. indefinida: name="loop" value="false"
+                - type:
+                    · Audio
+                    · Vídeo
+                - <embed>:
+                    # src: URL del archivo
+                    # type: MIME del arch. multimedia application/x-shockwave-flash
+                    # height: altura en píxeles
+                    # widht: anchura en píxeles
+                
+                -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Vídeo Muestra</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <h2 id="titulo">Título Vídeo Muestra</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XXYlFuWEuKI"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+header {
+	display: flex;
+	font-style: italic;
+	font-size: 25px;
+	justify-content: center;
+	border: 1px black solid;
+	border-radius: 6px;
+}
+.table1 {
+	font-style: italic;
+	height: 25%;
+	width: 20%;
+}

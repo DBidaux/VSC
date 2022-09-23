@@ -1,0 +1,10 @@
+<!--Conflictos entre reglas: cuando dos o más reglas intentan modificar el mismo elemento
+    Solución: mecanismo de cascada
+        Dos razones de conflicto:
+            - Herencia múltiple: se resuelve mediante la aplicación del estilo del padre más cercano
+            - Conflicto de selectores: intento de modificar una propiedad de un elemento desde diferentes reglas CSS
+                +Especificidad de selectores: se pueden sumar
+                · etiqueta = 1
+                · clase = 10
+                · id = 100
+    Podemos bloquear una propiedad mediante !important, no se modifica aunque la regla siguiente tenga más especificidad.-->

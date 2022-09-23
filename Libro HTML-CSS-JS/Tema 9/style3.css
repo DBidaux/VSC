@@ -1,0 +1,19 @@
+body {
+  font-family: Garamond, Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+}
+table {
+  border: 1px solid #000;
+}
+table tr td {
+  border: 1px solid #000;
+}
+table#table1 {
+  border-collapse: collapse;
+}
+table#table2 {
+  border-spacing: 3px;
+}
+table#tabla3 {
+  border-spacing: 2px 10px;
+}

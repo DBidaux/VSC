@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@200&family=Redressed&family=Roboto+Serif:wght@100&display=swap");
+body,
+html {
+	font-family: "Redressed", "Roboto-serif";
+	font-size: 18px;
+	height: 100%;
+	margin: 0;
+	line-height: 160%;
+	color: rgb(124, 124, 124);
+	text-align: center;
+}
+.foto1 {
+	background-image: url(image/4249454.jpg);
+	min-height: 100%;
+}
+.foto2 {
+	background-image: url(image/5868032.jpg);
+	min-height: 60%;
+}
+.foto3 {
+	background-image: url(image/5925711.jpg);
+	min-height: 40%;
+}
+.foto4 {
+	background-image: url(image/señal-de-neón-del-diamante-134701427.jpg);
+	min-height: 100%;
+}
+.foto1,
+.foto2,
+.foto3,
+.foto4 {
+	position: relative;
+	opacity: 0, 75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.letrero {
+	color: #24d3ff;
+	font-size: 550%;
+	top: 50%;
+}
+.letrero2 {
+	color: #ff22bd;
+	font-size: 550%;
+	top: 57%;
+}
+.letrero3 {
+	color: #461dff;
+	font-size: 550%;
+	top: 64%;
+}
+
+.letrero4 {
+	color: white;
+	font-size: 200%;
+	top: 45%;
+}
+
+.letrero,
+.letrero2,
+.letrero3,
+.letrero4 {
+	position: absolute;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+
+section {
+	padding: 50px 80px;
+}
+.dark {
+	background-color: rgb(43, 43, 43);
+}
+
+@media (max-width: 768px) {
+	.letrero {
+		font-size: 300%;
+	}
+	.letrero2 {
+		font-size: 250%;
+	}
+	.letrero3 {
+		font-size: 200%;
+	}
+	.letrero4 {
+		font-size: 150%;
+	}
+}

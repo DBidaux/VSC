@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de registro</title>
+</head>
+<body style="background-color: powderblue;">
+    <h1>Página de registro</h1>
+    <form class="" action="" method="post">
+        <label for="Usuario">Usuario
+            <input id="Usuario"type="text" name="nombre" value="" placeholder="Nombre y apellidos" required>
+        </label><br><br>
+
+        <label for="Correo">Correo
+            <input id="Correo" type="text" name="email" value="" placeholder="Correo" required>@
+            <select name="" id="">
+                <option value="">gmail.com</option>
+                <option value="">yahoo.com</option>
+                <option value="">hotmail.com</option>
+            </select>
+        </label><br><br>  
+
+        <label for="password">Contraseña
+            <input id="password" type="password" name="password" value="" placeholder="Contraseña" required pattern="{4,8}" title="Contraseña de 4 caracteres mínimo">
+        </label><br><br>
+
+        <label for="M">Masculino
+            <input type="radio" name="genero" value="masculino">
+        </label>
+
+        <label for="F">Femenino
+            <input type="radio" name="genero" value="femenino">
+        </label>
+
+        <label for="O">Otro
+            <input type="radio" name="genero" value="otro" >
+        </label><br><br>
+
+        <label for="Nacimiento">Fecha de Nacimiento
+            <input type="date">
+        </label><br><br>
+
+        <label for="">
+            <input type="submit">
+        </label>
+</body>
+</html>
